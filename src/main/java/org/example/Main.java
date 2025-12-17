@@ -1,6 +1,7 @@
 package org.example;
 
 import javafx.application.Application;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -25,10 +26,12 @@ public class Main extends Application {
 
         Label labelErro = new Label();
 
+        Label labelSenhaGerada = new Label("Senha Gerada:");
         TextField fieldSenhaGerada = new TextField();
         fieldSenhaGerada.setEditable(false);
+        fieldSenhaGerada.setStyle("-fx-text-fill: cyan; -fx-background-color: black;");
 
-        Button buttonGerarSenha = new Button("Gerar senha");
+        Button buttonGerarSenha = new Button("Gerar Senha");
         buttonGerarSenha.setOnAction(e -> {
             try {
                 int tamanhoSenha = Integer.parseInt(fieldTamanhoSenha.getText());
@@ -49,8 +52,9 @@ public class Main extends Application {
             }
         });
 
-        VBox vBox = new VBox(10, labelTamanhoSenha, fieldTamanhoSenha, buttonGerarSenha, labelErro, fieldSenhaGerada);
-        Scene scene = new Scene(vBox, 300, 200);
+        VBox vBox = new VBox(5, labelTamanhoSenha, fieldTamanhoSenha, buttonGerarSenha, labelErro,labelSenhaGerada, fieldSenhaGerada);
+        vBox.setPadding(new Insets(10));
+        Scene scene = new Scene(vBox, 400, 200);
         stage.setScene(scene);
         stage.show();
     }
