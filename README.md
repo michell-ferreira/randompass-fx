@@ -11,7 +11,7 @@ Projeto de uma aplicação desktop desenvolvida em **JavaFX** para geração de 
 
 ## 🎥 Demonstração em Vídeo
 
-<a href="COLE_AQUI_O_LINK_DO_VIDEO" target="_blank">Assista a uma demonstração da aplicação em funcionamento</a>
+<a href="https://youtu.be/WkIQWf5RcRs" target="_blank">Assista a uma demonstração da aplicação em funcionamento</a>
 
 ---
 
