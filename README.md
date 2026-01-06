@@ -16,6 +16,11 @@ Projeto de uma aplicação desktop desenvolvida em **JavaFX** para geração de 
 ---
 
 ## 📜 Sobre o Projeto
+> **Nota de Contexto**
+>
+> Este projeto foi desenvolvido inicialmente como parte do curso **"Java Completo"** do professor **Arnaldo Sousa**.  
+> A partir da base ensinada no curso, implementei novas funcionalidades, melhorias estruturais e personalizações visuais com o objetivo de aprofundar meus estudos em **JavaFX** e boas práticas de desenvolvimento.
+
 
 Este projeto foi desenvolvido como um exercício prático para consolidar o uso do **JavaFX em aplicações desktop**, com foco em **usabilidade**, **validação de entrada do usuário** e **separação de responsabilidades** entre interface gráfica e lógica de negócio.
 
